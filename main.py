@@ -3,18 +3,22 @@ from art import logo
 
 
 def add(n1, n2):
+    """Perform addition"""
     return n1 + n2
 
 
 def subtract(n1, n2):
+    """Perform subtraction"""
     return n1 - n2
 
 
 def multiply(n1, n2):
+    """Performs multiplication"""
     return n1 * n2
 
 
 def divide(n1, n2):
+    """Performs division"""
     return n1 / n2
 
 
@@ -27,6 +31,7 @@ operations = {
 
 
 def calculator():
+    """It performs calculations (+ - * /) and prints it out - and has option to continue calculating"""
     print(logo)
 
     num1 = float(input("What's the first number?: "))
